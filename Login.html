@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學員登入</title>
+
+</head>
+
+<body>
+    <form id="form1" name="form1" method="post" action="Login.php">
+        <p>
+            <label for="id">帳號：</label>
+            <input name="id" type="text" id="id" size="10" maxlength="10" />
+        </p>
+        <p>
+            <label for="password">密碼：</label>
+            <input name="password" type="password" id="password" size="10" maxlength="10" />
+        </p>
+
+
+        <input type="submit" name="button" id="button" value="登入" />
+        <input Type="reset" name="button" id="button" value="重設" />
+
+    </form>
+    <p></p>
+    <button type="button" onclick="window.location.href='Register.html'">來去註冊</button>
+</body>
