@@ -62,9 +62,6 @@
 
 <h1>測驗成績</h1>
 <p>ID：<?php echo $user_id; ?></p>
-<p>是非題得分：<?php echo $truefalseScore; ?> 分</p>
-<p>選擇題得分：<?php echo $selectionScore; ?> 分</p>
-<hr>
 <p>總分：<?php echo $grade ?> 分</p>
 
 
